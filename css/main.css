@@ -1,0 +1,54 @@
+html {
+  box-sizing: border-box;
+  font: normal 100%/1.5 sans-serif;
+}
+
+section {
+  padding: 10px;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+div {
+  padding: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+
+body {
+  text-align: left;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.btn {
+  background-color: #333;
+  color: #fff;
+  display: inline-block;
+  padding: 0.4em 0.75em 0.60em;
+  border-radius: 8px;
+  border: 3px;
+  font-size: 1.125rem;
+  text-decoration: none;
+  text-align: center;
+}
+
+.btn-ghost {
+  background-color: #fff;
+  color: #000;
+  border-style: solid;
+  border-color: #000;
+  font-size: 1.125rem;
+  padding: 0.4em 0.75em 0.60em;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 8px;
+}
+
+.btn-ghost:hover {
+  background-color: #666;
+  display: inline-block;
+}
